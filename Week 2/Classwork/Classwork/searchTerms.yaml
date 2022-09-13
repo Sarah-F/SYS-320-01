@@ -1,4 +1,0 @@
-apache:
-  php: "[GET|POST].*/wordpress/wp-login.php.*,[GET|POST].*/mediawiki/index.php.*"
-  cgi: "[GET|POST].*/cgi-bin/test-cgi.*,[GET|POST].*/cgi-bin/htsearch.*"
-# in this case (look at line 12 of syslogCheck, service = apache, php or cgi = term)
