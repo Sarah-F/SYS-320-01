@@ -21,14 +21,6 @@ def bytes_sent_bytes_recieved(filename, service, term):
         # Split the results
             sp_results = eachFound.split(" ")
 
-        #for loop in sp_results that filters out lowercase qq
-    #    for item in sp_results:
-    #        if bool(re.search(r"qq", item)):
-    #            sp_results.remove(item)
-                    #THIS CODE ONLY REMOVES THE WORDS NOT THE LINE/ROW, 
-                    #I WENT TO TUTORING BUT WE WERE UNABLE TO FIGURE OUT HOW TO REMOVE THE ENTIRE LINE
-                    #TUTOR SUGGEST THE SPLIT MAY BE THE PROBLEM
-
         # Append the split value to the found list
             found.append(sp_results[0] + " " + sp_results[2] + " " + sp_results[4]+ " bytes sent " + sp_results[7] + " bytes recevied ")  #Bytes sent replaces 5 and 6, bytes recieved replaces 7 and 8
         #need to figure ouy how to get rid of proxy closed lines
