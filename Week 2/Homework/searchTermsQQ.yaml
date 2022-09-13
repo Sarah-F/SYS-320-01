@@ -1,5 +1,3 @@
 proxy:
   QQ1: "QQ.*exe.*bytes sent.*bytes received.*"
   QQ2: "QQ.*exe.*open through proxy.*"  
-
-# in this case (look at line 12 of syslogCheck, service = apache, php or cgi = term)
