@@ -23,7 +23,6 @@ def bytes_sent_bytes_recieved(filename, service, term):
 
         # Append the split value to the found list
             found.append(sp_results[0] + " " + sp_results[2] + " " + sp_results[4]+ " bytes sent " + sp_results[7] + " bytes recevied ")  #Bytes sent replaces 5 and 6, bytes recieved replaces 7 and 8
-        #need to figure ouy how to get rid of proxy closed lines
 
     # Remove Duplicates by using set
     # and convert the list to a dictionary
