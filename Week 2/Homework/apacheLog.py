@@ -16,6 +16,7 @@ def bytes_sent_bytes_recieved(filename, service, term):
     for eachFound in is_found:
 
         #Filters out lowercase qq
+        #Got help with this part from discord user named 'a_lost_bookworm', real name unknown
         if not bool(re.search(r"qq", eachFound)) and not bool(re.search(r"error", eachFound)):
         # print(eachFound)
         # Split the results
@@ -47,6 +48,7 @@ def proxy_opened_message(filename, service, term):
     for eachFound in is_found:
                 
         #Filters out lowercase qq
+        #Got help with this part from discord user named 'a_lost_bookworm', real name unknown
         if not bool(re.search(r"qq", eachFound)) and not bool(re.search(r"error", eachFound)):
         # print(eachFound)
         # Split the results
