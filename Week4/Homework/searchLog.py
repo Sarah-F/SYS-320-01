@@ -50,7 +50,7 @@ def logs(logFile,searchTerm):
 
         except EnvironmentError as e:
             print(e.strerror)
-#python3
+
+#I tried this but it didn't work
 #pip3 install pyyaml
-#pip install --upgrade pip
 #pip3 install --upgrade pip
