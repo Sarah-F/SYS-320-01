@@ -1,69 +1,62 @@
 # File to traverse a given directory and it's subdirectories and retrieve all the files.
-import os, argparse, csv, re
+import os, argparse, searchLogCsv, searchLogYaml, csv, re
 
 # parser
-#parser = argparse.ArgumentParser(
-#
-#    description= "Traverses a directory and builds a forensic body file",
-#    epilog= "Developed by Sarah Fornaldes, 20221001"
-#)
-#
-## Add argument to pass to the fs.py program
-#parser.add_argument("-d", "--directory", required="True", help="Directory that you want to traverse.")
-#
-## Parse the arguments
-#args = parser.parse_args()
+parser = argparse.ArgumentParser(
 
-#rootdir = args.directory
-rootdir = input("Please enter the directory path: ")
+    description= "Traverses a directory and find attacks or attempted attacks in web logs.",
+    epilog= "Developed by Sarah Fornaldes, 20220924"
+)
 
+# Commandline argument for the directory and for the searchTerms YAML book.
+parser.add_argument("-d", "--directory", required="True", help="Directory that you want to traverse.")
+parser.add_argument("-s", "--searchTerm", required="True", help="traverses searchTerms.yaml")
 
+# Parse the arguments
+args = parser.parse_args()
+# Stores root directory
+rootdir = args.directory
+# Stores search term
+searchT = args.searchTerm
+#print(searchT)
 
-# Check if the argument is a directory (to test on Mac, possible directory is ~/Applications)
+# Check if the argument is a directory
 if not os.path.isdir(rootdir):
     print("Invalid directory => {}".format(rootdir))
     exit()
 
-# List to save files
+# save files to list
 fList = []
 
 # Crawl through the provided directory
 for root, subfolders, filenames in os.walk(rootdir):
-
     for f in filenames:
-
-        #print(root  + "/" + f)
         fileList = root  + "/" + f
-        #print(fileList)
-        fList.append(fileList)
+        fList.append(fileList)    
+    
+# Looks through each log in the directory
+keywords = []
 
-# Creates eachOpen function
-def eachOpen(filename,searchTerms):
-    # Opens file and stores it as variable f
-    with open(filename) as f:
-        # Creates a csv reader object
-        contents = csv.reader(f)
-        # Skips the first 9 lines of code, it is file metadata that we don't need
-        for _ in range(9): 
-            # Returns the next item inside the contents list
-            next(contents)
-            # Iterates over contents
-        for eachLine in contents:
-            # for loop searched for keywords in searchTerms;
-            for keyword in searchTerms:
-                # Searches for specific keywords
-                x = re.findall(r'' + keyword + '', eachLine[2])
-                for _ in x:
-                    print(
-                """
-                %s From file %s :
-                Arguments: %s
-                Hostname: %s
-                Name: %s
-                Path: %s
-                PID: %s
-                Username: %s
-                """)
-
+#loops through each file in flist
 for eachFile in fList:
-    eachOpen(eachFile)
+    #print(eachFile)
+    # Loads CSV, stores spliced results 
+    results = searchLogCsv.logs(eachFile,searchT)    
+    #print(results)
+    #print(searchT)
+
+# loops through key words, prints attack desription
+for keyVal in keywords:
+    for key, value in keyVal.items():
+        types = value['ref']
+        terms = value['detect']
+        searchT = terms.split(",")
+        print("Attack Description: " + types)
+
+        for file in fList:
+            searchLogCsv.logs(eachFile,searchT)
+
+#cd ~/Desktop/SYS-320-01/Week5/Homework
+#python3 fs.py -d/Users/sarahfornaldes/Desktop/SYS-320-01/Week5/logs -s registry
+#python3 fs.py -d/Users/sarahfornaldes/Desktop/SYS-320-01/Week5/logs -s scripts
+#python3 fs.py -d/Users/sarahfornaldes/Desktop/SYS-320-01/Week5/logs -s powershell

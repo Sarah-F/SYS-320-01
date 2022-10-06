@@ -26,8 +26,6 @@ def logs(filename,searchTerm):
                 x = re.findall(r'' + keyword + '',''.join(eachLine[1]))
                 #print(x)
                 for found in x:
-                    # Appends new results to results
-                    #results.append(found)
                     args = eachLine[1]
                     host = eachLine[2]
                     name = eachLine[3]
