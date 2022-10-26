@@ -1,0 +1,62 @@
+### BEGIN sudo -S lsof -i -n ###
+
+COMMAND      PID            USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
+systemd-n    593 systemd-network   19u  IPv4   19178      0t0  UDP 10.223.0.144:bootpc 
+systemd-r    603 systemd-resolve   12u  IPv4   19238      0t0  UDP 127.0.0.53:domain 
+systemd-r    603 systemd-resolve   13u  IPv4   19239      0t0  TCP 127.0.0.53:domain (LISTEN)
+lwsmd        855            root   44u  IPv4 2302099      0t0  TCP 10.223.0.144:52820->192.168.4.4:ldap (ESTABLISHED)
+sshd         935            root    3u  IPv4   24209      0t0  TCP *:ssh (LISTEN)
+sshd         935            root    4u  IPv6   24221      0t0  TCP *:ssh (LISTEN)
+sshd      561391            root    4u  IPv4 2256818      0t0  TCP 10.223.0.144:ssh->10.223.0.1:36544 (ESTABLISHED)
+sshd      561490          ubuntu    4u  IPv4 2256818      0t0  TCP 10.223.0.144:ssh->10.223.0.1:36544 (ESTABLISHED)
+egrep     561559        p.dalton    5u  IPv6 2257680      0t0  TCP *:http-alt (LISTEN)
+sshd      566191            root    4u  IPv4 2288295      0t0  TCP 10.223.0.144:ssh->192.168.7.106:52682 (ESTABLISHED)
+sshd      566301 sarah.fornaldes    4u  IPv4 2288295      0t0  TCP 10.223.0.144:ssh->192.168.7.106:52682 (ESTABLISHED)
+sshd      567724            root    4u  IPv4 2300949      0t0  TCP 10.223.0.144:ssh->172.16.2.144:52987 (ESTABLISHED)
+sshd      567846   david.thomsen    4u  IPv4 2300949      0t0  TCP 10.223.0.144:ssh->172.16.2.144:52987 (ESTABLISHED)
+sshd      568281            root    4u  IPv4 2306072      0t0  TCP 10.223.0.144:ssh->10.223.0.1:36614 (ESTABLISHED)
+sshd      568381          ubuntu    4u  IPv4 2306072      0t0  TCP 10.223.0.144:ssh->10.223.0.1:36614 (ESTABLISHED)
+sshd      569111            root    4u  IPv4 2312850      0t0  TCP 10.223.0.144:ssh->192.168.7.103:51448 (ESTABLISHED)
+sshd      569210    paul.gleason    4u  IPv4 2312850      0t0  TCP 10.223.0.144:ssh->192.168.7.103:51448 (ESTABLISHED)
+sshd      570170            root    4u  IPv4 2329769      0t0  TCP 10.223.0.144:ssh->192.168.7.106:52918 (ESTABLISHED)
+sshd      570270 sarah.fornaldes    4u  IPv4 2329769      0t0  TCP 10.223.0.144:ssh->192.168.7.106:52918 (ESTABLISHED)
+sshd      570281            root    4u  IPv4 2330520      0t0  TCP 10.223.0.144:ssh->192.168.7.106:52941 (ESTABLISHED)
+sshd      570386 sarah.fornaldes    4u  IPv4 2330520      0t0  TCP 10.223.0.144:ssh->192.168.7.106:52941 (ESTABLISHED)
+sshd      570406            root    4u  IPv4 2331267      0t0  TCP 10.223.0.144:ssh->192.168.7.106:52960 (ESTABLISHED)
+sshd      570503 sarah.fornaldes    4u  IPv4 2331267      0t0  TCP 10.223.0.144:ssh->192.168.7.106:52960 (ESTABLISHED)
+sshd      570669            root    4u  IPv4 2333975      0t0  TCP 10.223.0.144:ssh->172.16.2.144:53187 (ESTABLISHED)
+sshd      570760   david.thomsen    4u  IPv4 2333975      0t0  TCP 10.223.0.144:ssh->172.16.2.144:53187 (ESTABLISHED)
+sshd      571026            root    4u  IPv4 2337293      0t0  TCP 10.223.0.144:ssh->192.168.7.106:53004 (ESTABLISHED)
+sshd      571027            sshd    4u  IPv4 2337293      0t0  TCP 10.223.0.144:ssh->192.168.7.106:53004 (ESTABLISHED)
+sshd      571038            root    4u  IPv4 2337355      0t0  TCP 10.223.0.144:ssh->192.168.7.106:53014 (ESTABLISHED)
+sshd      571039            sshd    4u  IPv4 2337355      0t0  TCP 10.223.0.144:ssh->192.168.7.106:53014 (ESTABLISHED)
+sshd      571046            root    4u  IPv4 2337413      0t0  TCP 10.223.0.144:ssh->192.168.7.106:53022 (ESTABLISHED)
+sshd      571143 sarah.fornaldes    4u  IPv4 2337413      0t0  TCP 10.223.0.144:ssh->192.168.7.106:53022 (ESTABLISHED)
+### END sudo -S lsof -i -n ###
+
+### BEGIN sudo -S lsof -i -n ###
+
+COMMAND      PID            USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
+systemd-n    593 systemd-network   19u  IPv4   19178      0t0  UDP 10.223.0.144:bootpc 
+systemd-r    603 systemd-resolve   12u  IPv4   19238      0t0  UDP 127.0.0.53:domain 
+systemd-r    603 systemd-resolve   13u  IPv4   19239      0t0  TCP 127.0.0.53:domain (LISTEN)
+lwsmd        855            root   44u  IPv4 2302099      0t0  TCP 10.223.0.144:52820->192.168.4.4:ldap (ESTABLISHED)
+sshd         935            root    3u  IPv4   24209      0t0  TCP *:ssh (LISTEN)
+sshd         935            root    4u  IPv6   24221      0t0  TCP *:ssh (LISTEN)
+sshd      561391            root    4u  IPv4 2256818      0t0  TCP 10.223.0.144:ssh->10.223.0.1:36544 (ESTABLISHED)
+sshd      561490          ubuntu    4u  IPv4 2256818      0t0  TCP 10.223.0.144:ssh->10.223.0.1:36544 (ESTABLISHED)
+egrep     561559        p.dalton    5u  IPv6 2257680      0t0  TCP *:http-alt (LISTEN)
+sshd      567724            root    4u  IPv4 2300949      0t0  TCP 10.223.0.144:ssh->172.16.2.144:52987 (ESTABLISHED)
+sshd      567846   david.thomsen    4u  IPv4 2300949      0t0  TCP 10.223.0.144:ssh->172.16.2.144:52987 (ESTABLISHED)
+sshd      568281            root    4u  IPv4 2306072      0t0  TCP 10.223.0.144:ssh->10.223.0.1:36614 (ESTABLISHED)
+sshd      568381          ubuntu    4u  IPv4 2306072      0t0  TCP 10.223.0.144:ssh->10.223.0.1:36614 (ESTABLISHED)
+sshd      569111            root    4u  IPv4 2312850      0t0  TCP 10.223.0.144:ssh->192.168.7.103:51448 (ESTABLISHED)
+sshd      569210    paul.gleason    4u  IPv4 2312850      0t0  TCP 10.223.0.144:ssh->192.168.7.103:51448 (ESTABLISHED)
+sshd      570669            root    4u  IPv4 2333975      0t0  TCP 10.223.0.144:ssh->172.16.2.144:53187 (ESTABLISHED)
+sshd      570760   david.thomsen    4u  IPv4 2333975      0t0  TCP 10.223.0.144:ssh->172.16.2.144:53187 (ESTABLISHED)
+sshd      571426            root    4u  IPv4 2340962      0t0  TCP 10.223.0.144:ssh->192.168.7.106:53134 (ESTABLISHED)
+sshd      571427            sshd    4u  IPv4 2340962      0t0  TCP 10.223.0.144:ssh->192.168.7.106:53134 (ESTABLISHED)
+sshd      571443            root    4u  IPv4 2341022      0t0  TCP 10.223.0.144:ssh->192.168.7.106:53144 (ESTABLISHED)
+sshd      571543 sarah.fornaldes    4u  IPv4 2341022      0t0  TCP 10.223.0.144:ssh->192.168.7.106:53144 (ESTABLISHED)
+### END sudo -S lsof -i -n ###
+
