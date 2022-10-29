@@ -1,0 +1,28 @@
+### BEGIN sudo lsof -p XXXX ###
+
+### END sudo lsof -p XXXX ###
+
+### BEGIN sudo -S lsof -p XXXX ###
+
+### END sudo -S lsof -p XXXX ###
+
+### BEGIN sudo -S lsof -i -n -p XXXX ###
+
+### END sudo -S lsof -i -n -p XXXX ###
+
+### BEGIN sudo -S lsof -i -n -ps ###
+
+### END sudo -S lsof -i -n -ps ###
+
+### BEGIN sudo lsof -p XXXX ###
+
+### END sudo lsof -p XXXX ###
+
+### BEGIN sudo lsof -p XXXX ###
+
+### END sudo lsof -p XXXX ###
+
+### BEGIN sudo lsof -p XXXX ###
+
+### END sudo lsof -p XXXX ###
+
