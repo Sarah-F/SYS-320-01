@@ -26,3 +26,15 @@
 
 ### END sudo lsof -p XXXX ###
 
+### BEGIN sudo lsof -p XXXX ###
+
+### END sudo lsof -p XXXX ###
+
+### BEGIN sudo lsof -p XXXX ###
+
+### END sudo lsof -p XXXX ###
+
+### BEGIN sudo lsof -p XXXX ###
+
+### END sudo lsof -p XXXX ###
+

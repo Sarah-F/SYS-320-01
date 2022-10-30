@@ -53,3 +53,15 @@
 
 ### END /home/ubuntu/kraken --folder /usr/bin --folder  --folder /usr/sbin/   --folder /usr/local/bin  --folder /sbin  --folder /usr/local/sbin  --folder /bin ###
 
+### BEGIN /home/ubuntu/kraken --folder /usr/bin --folder  --folder /usr/sbin/   --folder /usr/local/bin  --folder /sbin  --folder /usr/local/sbin  --folder /bin ###
+
+### END /home/ubuntu/kraken --folder /usr/bin --folder  --folder /usr/sbin/   --folder /usr/local/bin  --folder /sbin  --folder /usr/local/sbin  --folder /bin ###
+
+### BEGIN /home/ubuntu/kraken --folder /usr/bin --folder  --folder /usr/sbin/   --folder /usr/local/bin  --folder /sbin  --folder /usr/local/sbin  --folder /bin ###
+
+### END /home/ubuntu/kraken --folder /usr/bin --folder  --folder /usr/sbin/   --folder /usr/local/bin  --folder /sbin  --folder /usr/local/sbin  --folder /bin ###
+
+### BEGIN /home/ubuntu/kraken --folder /usr/bin --folder  --folder /usr/sbin/   --folder /usr/local/bin  --folder /sbin  --folder /usr/local/sbin  --folder /bin ###
+
+### END /home/ubuntu/kraken --folder /usr/bin --folder  --folder /usr/sbin/   --folder /usr/local/bin  --folder /sbin  --folder /usr/local/sbin  --folder /bin ###
+
