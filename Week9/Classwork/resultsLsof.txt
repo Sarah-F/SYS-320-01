@@ -1296,3 +1296,20 @@ PID
 613744
 ### END sudo -S lsof -i -n | awk '{print $2}'  ###
 
+### BEGIN sudo -S lsof -i -n | awk '{print $2}'  ###
+
+PID
+593
+603
+603
+855
+855
+935
+935
+561559
+600020
+600170
+613948
+614043
+### END sudo -S lsof -i -n | awk '{print $2}'  ###
+
