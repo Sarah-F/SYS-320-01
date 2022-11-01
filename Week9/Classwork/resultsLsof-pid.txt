@@ -17,3 +17,103 @@ NAME
 pipe
 pipe
 ### END sudo -S lsof -p 561559  | awk '{print $9}'  ###
+### BEGIN sudo -S lsof -p 561559  | awk '{print $9}'  ###
+
+NAME
+/home/p.dalton
+/
+/usr/local/bin/egrep
+/usr/lib/x86_64-linux-gnu/libc-2.31.so
+/usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+/usr/lib/x86_64-linux-gnu/ld-2.31.so
+/dev/null
+/home/p.dalton/.d.log
+/home/p.dalton/.d.log
+/dev/null
+/home/p.dalton/d.pid
+*:http-alt
+[eventpoll]
+pipe
+pipe
+### END sudo -S lsof -p 561559  | awk '{print $9}'  ###
+
+### BEGIN sudo -S lsof -p 561559  | awk '{print $9}'  ###
+
+NAME
+/home/p.dalton
+/
+/usr/local/bin/egrep
+/usr/lib/x86_64-linux-gnu/libc-2.31.so
+/usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+/usr/lib/x86_64-linux-gnu/ld-2.31.so
+/dev/null
+/home/p.dalton/.d.log
+/home/p.dalton/.d.log
+/dev/null
+/home/p.dalton/d.pid
+*:http-alt
+[eventpoll]
+pipe
+pipe
+### END sudo -S lsof -p 561559  | awk '{print $9}'  ###
+
+### BEGIN sudo -S lsof -p 561559  | awk '{print $9}'  ###
+
+NAME
+/home/p.dalton
+/
+/usr/local/bin/egrep
+/usr/lib/x86_64-linux-gnu/libc-2.31.so
+/usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+/usr/lib/x86_64-linux-gnu/ld-2.31.so
+/dev/null
+/home/p.dalton/.d.log
+/home/p.dalton/.d.log
+/dev/null
+/home/p.dalton/d.pid
+*:http-alt
+[eventpoll]
+pipe
+pipe
+### END sudo -S lsof -p 561559  | awk '{print $9}'  ###
+
+### BEGIN sudo -S lsof -p 561559  | awk '{print $9}'  ###
+
+NAME
+/home/p.dalton
+/
+/usr/local/bin/egrep
+/usr/lib/x86_64-linux-gnu/libc-2.31.so
+/usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+/usr/lib/x86_64-linux-gnu/ld-2.31.so
+/dev/null
+/home/p.dalton/.d.log
+/home/p.dalton/.d.log
+/dev/null
+/home/p.dalton/d.pid
+*:http-alt
+[eventpoll]
+pipe
+pipe
+### END sudo -S lsof -p 561559  | awk '{print $9}'  ###
+
+### BEGIN sudo -S lsof -p 561559  | awk '{print $9}'  ###
+
+NAME
+/home/p.dalton
+/
+/usr/local/bin/egrep
+/usr/lib/x86_64-linux-gnu/libc-2.31.so
+/usr/lib/x86_64-linux-gnu/libpthread-2.31.so
+/usr/lib/x86_64-linux-gnu/ld-2.31.so
+/dev/null
+/home/p.dalton/.d.log
+/home/p.dalton/.d.log
+/dev/null
+/home/p.dalton/d.pid
+*:http-alt
+[eventpoll]
+pipe
+pipe
+### END sudo -S lsof -p 561559  | awk '{print $9}'  ###
+
