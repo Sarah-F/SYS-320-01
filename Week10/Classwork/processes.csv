@@ -1,0 +1,145 @@
+#TYPE Selected.System.Diagnostics.Process
+"ProcessName","Id","Path"
+"ApplicationFrameHost","7044","C:\Windows\system32\ApplicationFrameHost.exe"
+"audiodg","4804",
+"Code","2172","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","3436","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","4320","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","6056","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","6396","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","6560","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","7300","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","11364","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","11960","C:\Program Files\Microsoft VS Code\Code.exe"
+"Code","12344","C:\Program Files\Microsoft VS Code\Code.exe"
+"conhost","4048","C:\Windows\system32\conhost.exe"
+"conhost","9868","C:\Windows\system32\conhost.exe"
+"conhost","11052","C:\Windows\system32\conhost.exe"
+"conhost","13060","C:\Windows\system32\conhost.exe"
+"csrss","656",
+"csrss","12108",
+"ctfmon","12324",
+"dllhost","11652","C:\Windows\system32\DllHost.exe"
+"dwm","5020",
+"explorer","9592","C:\Windows\Explorer.EXE"
+"fontdrvhost","488",
+"fontdrvhost","11580",
+"Greenshot","10104","C:\Program Files\Greenshot\Greenshot.exe"
+"Idle","0",
+"igfxCUIService","2108",
+"igfxEM","10552","C:\Windows\System32\DriverStore\FileRepository\cui_dch.inf_amd64_b8e01d9e8716d2a7\igfxEM.exe"
+"IntelCpHDCPSvc","1660",
+"IntelCpHeciSvc","2028",
+"jhi_service","4080",
+"lsass","888",
+"Memory Compression","2500",
+"MsMpEng","5648",
+"NisSrv","6300",
+"OneApp.IGCC.WinService","3868",
+"powershell","7484","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+"powershell","8748","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+"powershell","10468","C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+"python","6972","c:\Program Files\Python310\python.exe"
+"Registry","144",
+"RtkNGUI64","9424","C:\Program Files\Realtek\Audio\HDA\RtkNGUI64.exe"
+"RuntimeBroker","6212","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","7824","C:\Windows\System32\RuntimeBroker.exe"
+"RuntimeBroker","9716","C:\Windows\System32\RuntimeBroker.exe"
+"SearchIndexer","3332",
+"SearchUI","492","C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe"
+"SecurityHealthService","5876",
+"SecurityHealthSystray","12448","C:\Windows\System32\SecurityHealthSystray.exe"
+"services","844",
+"SgrmBroker","1364",
+"ShellExperienceHost","504","C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe"
+"sihost","11988","C:\Windows\system32\sihost.exe"
+"smartscreen","11608","C:\Windows\System32\smartscreen.exe"
+"smss","460",
+"spoolsv","3548",
+"sshd","3888",
+"svchost","116",
+"svchost","912",
+"svchost","1012",
+"svchost","1056",
+"svchost","1244",
+"svchost","1260",
+"svchost","1268",
+"svchost","1324",
+"svchost","1332",
+"svchost","1412",
+"svchost","1468",
+"svchost","1484",
+"svchost","1492",
+"svchost","1500",
+"svchost","1532","C:\Windows\system32\svchost.exe"
+"svchost","1576",
+"svchost","1588",
+"svchost","1616","C:\Windows\system32\svchost.exe"
+"svchost","1668",
+"svchost","1676",
+"svchost","1728",
+"svchost","1800",
+"svchost","1816",
+"svchost","1968",
+"svchost","1988",
+"svchost","2032",
+"svchost","2260",
+"svchost","2284",
+"svchost","2292",
+"svchost","2324",
+"svchost","2340",
+"svchost","2376",
+"svchost","2416",
+"svchost","2424",
+"svchost","2636",
+"svchost","2716",
+"svchost","2756",
+"svchost","2888",
+"svchost","2920",
+"svchost","2940",
+"svchost","3224",
+"svchost","3340",
+"svchost","3348",
+"svchost","3360",
+"svchost","3400",
+"svchost","3464",
+"svchost","3820",
+"svchost","3828",
+"svchost","3836",
+"svchost","3844",
+"svchost","3852",
+"svchost","3860",
+"svchost","3876",
+"svchost","4092","C:\Windows\system32\svchost.exe"
+"svchost","4216",
+"svchost","4244",
+"svchost","4304",
+"svchost","4324",
+"svchost","4364",
+"svchost","4896",
+"svchost","4920",
+"svchost","5456",
+"svchost","5580",
+"svchost","5716",
+"svchost","6044",
+"svchost","6116",
+"svchost","7812",
+"svchost","8076",
+"svchost","11308",
+"svchost","12928","C:\Windows\system32\svchost.exe"
+"System","4",
+"SystemSettings","10816","C:\Windows\ImmersiveControlPanel\SystemSettings.exe"
+"taskhostw","2400","C:\Windows\system32\taskhostw.exe"
+"vmnat","4004",
+"vmnetdhcp","3996",
+"vmware-authd","3904",
+"vmware-tray","7952","C:\Program Files (x86)\VMware\VMware Workstation\vmware-tray.exe"
+"vmware-usbarbitrator64","4024",
+"WindowsInternal.ComposableShell.Experiences.TextInput.InputApp","7116","C:\Windows\SystemApps\InputApp_cw5n1h2txyewy\WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe"
+"wininit","740",
+"winlogon","9364",
+"winpty-agent","2676","c:\Program Files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe"
+"winpty-agent","5680","c:\Program Files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe"
+"winpty-agent","8544","c:\Program Files\Microsoft VS Code\resources\app\node_modules.asar.unpacked\node-pty\build\Release\winpty-agent.exe"
+"WmiPrvSE","5976",
+"WMIRegistrationService","4016",
