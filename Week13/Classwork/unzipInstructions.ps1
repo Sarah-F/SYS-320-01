@@ -1,0 +1,1 @@
+# To unzip the file, in the terminal ```Expand-Archive ./Documents.zip
