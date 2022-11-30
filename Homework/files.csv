@@ -1,0 +1,239 @@
+"PSPath","PSParentPath","PSChildName","UnixStat","PSDrive","PSProvider","PSIsContainer","UnixMode","User","Group","Size","Mode","ModeWithoutHardLink","VersionInfo","BaseName","ResolvedTarget","Target","LinkType","Length","DirectoryName","Directory","IsReadOnly","FullName","Extension","Name","Exists","CreationTime","CreationTimeUtc","LastAccessTime","LastAccessTimeUtc","LastWriteTime","LastWriteTimeUtc","LinkTarget","UnixFileMode","Attributes"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Audits/Commercial_audit_checklist_tool.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Audits","Commercial_audit_checklist_tool.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","221129","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Audits/Commercial_audit_checklist_tool.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Commercial_audit_checklist_tool","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Audits/Commercial_audit_checklist_tool.xlsx",,,"221129","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Audits","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Audits","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Audits/Commercial_audit_checklist_tool.xlsx",".xlsx","Commercial_audit_checklist_tool.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/DoD_Master_Office_2010_Settings_v1.0.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests","DoD_Master_Office_2010_Settings_v1.0.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","319973","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/DoD_Master_Office_2010_Settings_v1.0.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","DoD_Master_Office_2010_Settings_v1.0","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/DoD_Master_Office_2010_Settings_v1.0.xlsx",,,"319973","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/DoD_Master_Office_2010_Settings_v1.0.xlsx",".xlsx","DoD_Master_Office_2010_Settings_v1.0.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/Microsoft Office 2010 Service Pack 1 Changes.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests","Microsoft Office 2010 Service Pack 1 Changes.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","40225","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/Microsoft Office 2010 Service Pack 1 Changes.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Microsoft Office 2010 Service Pack 1 Changes","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/Microsoft Office 2010 Service Pack 1 Changes.xlsx",,,"40225","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/Microsoft Office 2010 Service Pack 1 Changes.xlsx",".xlsx","Microsoft Office 2010 Service Pack 1 Changes.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/thoughtfarmer-intranet-content-migration-worksheet.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests","thoughtfarmer-intranet-content-migration-worksheet.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","30931","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/thoughtfarmer-intranet-content-migration-worksheet.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","thoughtfarmer-intranet-content-migration-worksheet","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/thoughtfarmer-intranet-content-migration-worksheet.xlsx",,,"30931","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/ChangeRequests/thoughtfarmer-intranet-content-migration-worksheet.xlsx",".xlsx","thoughtfarmer-intranet-content-migration-worksheet.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/3yr-Project-Financial-Report-Template.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","3yr-Project-Financial-Report-Template.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","145129","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/3yr-Project-Financial-Report-Template.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","3yr-Project-Financial-Report-Template","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/3yr-Project-Financial-Report-Template.xlsx",,,"145129","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/3yr-Project-Financial-Report-Template.xlsx",".xlsx","3yr-Project-Financial-Report-Template.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/82808-Annual Report Financial Overview Template and Graphs.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","82808-Annual Report Financial Overview Template and Graphs.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","3079772","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/82808-Annual Report Financial Overview Template and Graphs.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","82808-Annual Report Financial Overview Template and Graphs","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/82808-Annual Report Financial Overview Template and Graphs.xlsx",,,"3079772","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/82808-Annual Report Financial Overview Template and Graphs.xlsx",".xlsx","82808-Annual Report Financial Overview Template and Graphs.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/FinancialStatementFY12Q2.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","FinancialStatementFY12Q2.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","78249","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/FinancialStatementFY12Q2.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","FinancialStatementFY12Q2","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/FinancialStatementFY12Q2.xlsx",,,"78249","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/FinancialStatementFY12Q2.xlsx",".xlsx","FinancialStatementFY12Q2.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/GPAF IMP 067 Annual Financial Report 300414.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","GPAF IMP 067 Annual Financial Report 300414.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","184360","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/GPAF IMP 067 Annual Financial Report 300414.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","GPAF IMP 067 Annual Financial Report 300414","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/GPAF IMP 067 Annual Financial Report 300414.xlsx",,,"184360","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/GPAF IMP 067 Annual Financial Report 300414.xlsx",".xlsx","GPAF IMP 067 Annual Financial Report 300414.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/SBR FY 2016 Annual Report Template 7-21-16 Final.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","SBR FY 2016 Annual Report Template 7-21-16 Final.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","47716","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/SBR FY 2016 Annual Report Template 7-21-16 Final.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","SBR FY 2016 Annual Report Template 7-21-16 Final","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/SBR FY 2016 Annual Report Template 7-21-16 Final.xlsx",,,"47716","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/FinancialStatements/SBR FY 2016 Annual Report Template 7-21-16 Final.xlsx",".xlsx","SBR FY 2016 Annual Report Template 7-21-16 Final.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/2010AdoptedScienceStandards.pdf","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","2010AdoptedScienceStandards.pdf","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","528847","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/2010AdoptedScienceStandards.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","2010AdoptedScienceStandards","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/2010AdoptedScienceStandards.pdf",,,"528847","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/2010AdoptedScienceStandards.pdf",".pdf","2010AdoptedScienceStandards.pdf","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/cle-other-science.pdf","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","cle-other-science.pdf","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","491735","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/cle-other-science.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","cle-other-science","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/cle-other-science.pdf",,,"491735","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/cle-other-science.pdf",".pdf","cle-other-science.pdf","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/K-12_Science_Performance_Expectations_v5_496901_7.pdf","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","K-12_Science_Performance_Expectations_v5_496901_7.pdf","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","1017137","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/K-12_Science_Performance_Expectations_v5_496901_7.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","K-12_Science_Performance_Expectations_v5_496901_7","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/K-12_Science_Performance_Expectations_v5_496901_7.pdf",,,"1017137","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/K-12_Science_Performance_Expectations_v5_496901_7.pdf",".pdf","K-12_Science_Performance_Expectations_v5_496901_7.pdf","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/South_Carolina_Academic_Standards_and_Performance_Indicators_for_Science_2014.pdf","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","South_Carolina_Academic_Standards_and_Performance_Indicators_for_Science_2014.pdf","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","1167470","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/South_Carolina_Academic_Standards_and_Performance_Indicators_for_Science_2014.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","South_Carolina_Academic_Standards_and_Performance_Indicators_for_Science_2014","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/South_Carolina_Academic_Standards_and_Performance_Indicators_for_Science_2014.pdf",,,"1167470","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/South_Carolina_Academic_Standards_and_Performance_Indicators_for_Science_2014.pdf",".pdf","South_Carolina_Academic_Standards_and_Performance_Indicators_for_Science_2014.pdf","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/stds_scienceKinder.pdf","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","stds_scienceKinder.pdf","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","61430","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/stds_scienceKinder.pdf
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","stds_scienceKinder","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/stds_scienceKinder.pdf",,,"61430","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Sciences/stds_scienceKinder.pdf",".pdf","stds_scienceKinder.pdf","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/Index_Table_Contents.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates","Index_Table_Contents.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","60765","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/Index_Table_Contents.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Index_Table_Contents","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/Index_Table_Contents.xlsx",,,"60765","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/Index_Table_Contents.xlsx",".xlsx","Index_Table_Contents.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/NYCProject-RACI_v2.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates","NYCProject-RACI_v2.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","37554","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/NYCProject-RACI_v2.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","NYCProject-RACI_v2","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/NYCProject-RACI_v2.xlsx",,,"37554","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/NYCProject-RACI_v2.xlsx",".xlsx","NYCProject-RACI_v2.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/Windows 10 ADMX spreadsheet.xlsx","Microsoft.PowerShell.Core\FileSystem::/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates","Windows 10 ADMX spreadsheet.xlsx","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","sarahfornaldes","staff","659768","-----","-----","File:             /Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/Windows 10 ADMX spreadsheet.xlsx
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Windows 10 ADMX spreadsheet","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/Windows 10 ADMX spreadsheet.xlsx",,,"659768","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates","False","/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/Documents/Documents/Templates/Windows 10 ADMX spreadsheet.xlsx",".xlsx","Windows 10 ADMX spreadsheet.xlsx","True","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM","11/30/2022 11:10:42 AM","11/30/2022 4:10:42 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
