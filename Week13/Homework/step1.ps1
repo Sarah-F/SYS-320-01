@@ -18,11 +18,12 @@ else{
 }
 #>
 
-# delete the contents of update.bat file,  
+## Delete the contents of step2test.ps1, create update.bat,  
 $writeBatFile = @'
 rm "/Users/sarahfornaldes/Desktop/SYS-320-01/Week13/Homework/step2test.ps1"
 '@ | out-file -FilePath "./update.bat"
 
+## Executes update.bat
 sh "./update.bat"
-# chmod +x update.bat
+## In terminal/commandline do: chmod +x update.bat
 
